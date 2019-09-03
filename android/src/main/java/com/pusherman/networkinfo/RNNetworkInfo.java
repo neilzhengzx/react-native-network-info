@@ -1,25 +1,22 @@
 package com.pusherman.networkinfo;
 
 import android.content.Context;
+import android.net.wifi.SupplicantState;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
-import android.support.annotation.NonNull;
-import android.net.wifi.SupplicantState;
 import android.util.Log;
 
 import com.facebook.react.bridge.Promise;
-import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 
 import java.net.Inet4Address;
-import java.net.InetAddress;
 import java.net.InterfaceAddress;
 import java.net.NetworkInterface;
 import java.util.ArrayList;
-import java.util.Enumeration;
 import java.util.Arrays;
+import java.util.Enumeration;
 import java.util.List;
 
 
